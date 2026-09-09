@@ -31,11 +31,11 @@
   // marketing domain. Anyone self-hosting should REMOVE this routes block and use
   // their own forms.<domain> custom domain instead — a routes array is the
   // authoritative custom-domain list for the Worker.
-  "routes": [
-    { "pattern": "formweh.com", "custom_domain": true },
-    { "pattern": "www.formweh.com", "custom_domain": true },
-    { "pattern": "forms.formweh.com", "custom_domain": true }
-  ]
+  //"routes": [
+  //  { "pattern": "formweh.com", "custom_domain": true },
+  //  { "pattern": "www.formweh.com", "custom_domain": true },
+  //  { "pattern": "forms.formweh.com", "custom_domain": true }
+  //]
 
   // Custom domain (for later): point forms.yourdomain.com at this Worker by adding
   // it as a Custom Domain in the Cloudflare dashboard (Workers > your worker >
